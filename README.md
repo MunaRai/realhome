@@ -10,4 +10,4 @@
 
 ## [PSD file link](https://github.com/MunaRai/realhome/blob/master/realhome.psd)
 
-## [Live Site](https://munarai.github.io/realhome/){:target="_blank"}
+## [Live Site](https://munarai.github.io/realhome/)
