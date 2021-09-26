@@ -3,6 +3,10 @@
 
 ## Steps to run project
 
-## [PSD file link]()
 
-## [Live Site](https://github.com/user/repo/blob/branch/other_file.md)
+### Project preview
+![real home template preview](realhome-preview.JPG)
+
+## [PSD file link](https://github.com/MunaRai/realhome/blob/master/realhome.psd)
+
+## [Live Site](https://munarai.github.io/realhome/)
