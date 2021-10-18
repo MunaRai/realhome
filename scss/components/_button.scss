@@ -1,0 +1,22 @@
+%button-style{
+    padding: 0.7rem 1.1rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.primary-button{
+    @extend %button-style;
+    background-color: $primary-color;
+    color: $white-color;
+    border-radius: 0.1rem;
+    &:hover{
+        background-color: darken($primary-color, 10%);
+    }
+    &:active,
+    &:visited{
+        color: $white-color;
+    }
+}

@@ -1,0 +1,35 @@
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@include media('sm'){
+    .container {
+       width: $container-sm;
+    }
+};
+
+@include media('md'){
+    .container {
+       width: $container-md;
+        padding: 0;
+    } 
+};
+
+@include media('lg'){
+    .container {
+       width: $container-lg;
+    }
+};
+
+@include media('xl'){
+    .container {
+       width: $container-xl;
+    }
+}; 
+
+@include media('xxl'){
+    .container {
+       width: $container-xxl;
+    }
+};
