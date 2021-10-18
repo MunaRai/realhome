@@ -1,0 +1,358 @@
+/* featured properties style */
+
+.properties-section {
+    background-color: $feature-bkground-color;
+    text-align: center;
+    padding: 2rem 0;
+
+    .property-details {
+        h1 {
+            margin: 0;
+            font-family: "Raleway";
+            font-size: 1.4rem;
+        }
+        p {
+            margin: 0;
+            font-size: 0.7rem;
+            padding: 0 0.6rem;
+            padding-top: 0.8rem;
+            padding-bottom: 2rem;
+            opacity: 0.8;
+        }
+    }
+    .properties {
+        .property {
+            .inner-wrapper {
+                background-color: $white-color;
+                .image {
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    height: 200px;
+                }
+                .content {
+                    h2 {
+                        margin: 0;
+                        font-size: 1rem;
+                        padding-top: 1rem;
+                    }
+                    p {
+                        margin: 0;
+                        padding-top: 0.4rem;
+                        padding-bottom: 0.6rem;
+                        font-size: 0.7rem;
+                        opacity: 0.8;
+                    }
+                    span {
+                        font-size: 0.9rem;
+                        font-weight: bold;
+                        color: $primary-color;
+                    }
+                    .p-details {
+                        margin: 1rem 0;
+                        padding: 0.6rem 0;
+                        border-top-style: solid;
+                        border-top-width: 0.18rem;
+                        border-top-color: $feature-bkground-color;
+
+                        i {
+                            font-weight: 600;
+                            font-size: 0.4rem;
+                            opacity: 0.3;
+                            padding-right: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    a {
+        margin: 1rem 0;
+    }
+}
+@include media("sm") {
+    .properties-section {
+        .property-details {
+            p {
+                line-height: 1.6;
+                padding: 0 4rem;
+                padding-top: 0.8rem;
+                padding-bottom: 2rem;
+            }
+        }
+        .properties {
+            .property {
+                .inner-wrapper {
+                    .image {
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+@include media("md") {
+    .properties-section {
+        padding: 3rem 0;
+
+        .property-details {
+            h1 {
+                font-size: 1.6rem;
+                padding-bottom: 0.5rem;
+            }
+            .hr-line {
+                width: 5rem;
+                height: 0.12rem;
+            }
+            p {
+                padding: 0 10.7rem;
+                padding-top: 1rem;
+                padding-bottom: 2.2rem;
+            }
+        }
+        .properties {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .property {
+                flex-direction: row;
+
+                .inner-wrapper {
+                    .image {
+                        height: 200px;
+                    }
+                    .content {
+                        h2 {
+                            font-size: 1rem;
+                        }
+                        .p-details{
+                            padding: 0.6rem 3.7rem;
+
+                            i{
+                                padding-right: 0.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include media("lg") {
+    .properties-section{
+        padding: 3.5rem 0;
+
+        .property-details{
+            h1{
+                font-size: 1.8rem;
+            }
+            p{
+                font-size: 0.75rem;
+                padding: 0 17rem;
+                padding-top: 1.2rem;
+                padding-bottom: 2.5rem;
+            }
+        }
+        .properties{
+            .property{
+                .inner-wrapper{
+                    .content{
+                        h2{
+                            font-size: 1.1rem;
+                        }
+                        .p-details{
+                            padding: 0.6rem 2.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include media("lg") {
+    .properties-section{
+        .property-details{
+            h1{
+                font-size: 1.9rem;
+            }
+
+            p{
+                padding: 1.2rem 23rem 2.5rem;
+            }
+        }
+        .properties{
+            .property{
+                .inner-wrapper{
+                    .image{
+                        height: 220px;
+                    }
+                    .content{
+                        margin-bottom: 1.5rem;
+
+                        .p-details{
+                            padding: 0.6rem 4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
+@include media("xl"){
+    .properties-section{
+        padding: 4rem 0;
+        
+        .properties{
+            .property{
+                .inner-wrapper{
+                    .image{
+                        height: 230px;
+                    }
+                }
+            }
+        }
+    }
+}
+@include media("xxl"){
+    .properties-section{
+        .property-details{
+            h1{
+                font-size: 2rem;
+            }
+
+            p{
+                padding: 1.2rem 28rem 2.5rem;
+            }
+        }
+        .properties{
+            .property{
+                .inner-wrapper{
+                    .image{
+                        height: 240px;
+                    }
+                    .content{
+                        .p-details{
+                            padding: 0.6rem 5.9rem;
+                        }
+                    }
+                }
+            }
+        }
+        .primary-button{
+            font-size: 1rem;
+            padding: 0.8rem 1.4rem;
+        }
+    }  
+}
+// /* .properties-section{
+//     background: #f6f6f6;
+// } */
+
+// .property-details{
+//     text-align: center;
+// }
+
+// .property-details h1{
+//     margin-top: 80px;
+//     font-size: 42px;
+//     font-family: 'Raleway' sans-serif;
+//     font-weight: normal;
+//     /* text-decoration: underline #e2574c;
+//     text-underline-offset: 40px; */
+// }
+
+// .property-details span{
+//     height: 3px;
+//     width: 100px;
+//     background: #e2574c;
+//     display: inline-block;
+//     margin-bottom: 15px;
+// }
+
+// .property-details p{
+//     margin-bottom: 40px;
+//     font-size: 16px;
+//     font-family: 'playfair display' sans-serif;
+//     font-weight: normal;
+//     line-height: 25px;
+//     color: #797979;
+// }
+
+// .properties{
+//     text-align: center;
+//     margin: 0 -15px;
+//     /* display: flex; */
+// }
+
+// .properties .property{
+//     float: left;
+//     width: 33.33333%;
+//     padding: 0 15px;
+//     margin: 15px 0;
+// }
+// .properties .property .inner-wrapper{
+//     background: #fff;
+
+// }
+// .properties .property .inner-wrapper .content{
+//     padding-top: 25px;
+// }
+
+// .properties .property .image{
+//     padding: 35%;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: center;
+// }
+
+// .properties .property h2{
+//     font-family: 'Raleway' sans-serif;
+//     margin-top: 0;
+// }
+
+// .properties .property p{
+//     font-family: 'Playfair Display' sans-serif;
+//     color: #797979;
+// }
+
+// .properties .property span{
+//     font-family:'Roboto' sans-serif;
+//     font-size: 18px;
+//     color:#e2574c;
+//     font-weight: bold;
+//     padding: 1;
+// }
+
+// .properties .property .inner-wrapper .content .p-details{
+//     padding: 12px;
+//     margin-top: 25px;
+//     border-top-style: solid;
+//     border-top-width: 1.5px;
+//     border-top-color:#e6e6e6;
+//     border-bottom-style: solid;
+//     border-bottom-width: 1.5px;
+//     border-bottom-color:#e6e6e6;
+// }
+
+// .properties-section .all-properties {
+//     text-align: center;
+//     margin-top: 20px;
+//     margin-bottom: 80px;
+// }
+
+// .btn-primary{
+//     display: inline-block;
+//     text-decoration: none;
+//     padding: 15px 20px;
+//     font-size: 16px;
+//     text-align: center;
+//     background: #e2574c;
+//     color: #fff;
+//     font-weight: normal;
+//     /*     margin: 35px 491px; */
+//     /* margin-bottom: 85px; */
+//     border-radius: 5px;
+//     font-family: 'Roboto';
+//     font-weight: bolder;
+// }

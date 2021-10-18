@@ -1,0 +1,179 @@
+.about-offering {
+    color: $font-color;
+    padding: 2rem 0;
+
+    .about-wrapper {
+        .right-content {
+            h1 {
+                margin: 0;
+                font-size: 2rem;
+                text-align: right;
+                padding-bottom: 1.4rem;
+            }
+            .line {
+                background: $font-color;
+                display: inline-block;
+                width: 1.7rem;
+                height: 0.16rem;
+                opacity: 0.8;
+                position: absolute;
+                left: 17rem;
+            }
+        }
+        .left-content {
+            p {
+                margin: 0;
+                font-size: 0.8rem;
+                text-align: justify;
+                opacity: 0.9;
+                padding-top: 2rem;
+            }
+        }
+    }
+}
+
+@include media("sm") {
+    .about-offering {
+        .about-wrapper {
+            .right-content {
+                h1 {
+                    font-size: 1.8rem;
+                    text-align: center;
+                }
+                .line {
+                    width: 3rem;
+                }
+            }
+        }
+    }
+}
+@include media("md") {
+    .about-offering {
+        .about-wrapper {
+            display: flex;
+            align-items: center;
+            width: 100%;
+
+            .right-content {
+                width: 210%;
+                margin-right: 2rem;
+                h1 {
+                    padding-bottom: 1.4rem;
+                    font-size: 1.4rem;
+                    text-align: right;
+                }
+                .line {
+                    left: 14.6rem;
+                    width: 1.9rem;
+                }
+            }
+            .left-content {
+                p {
+                    padding: 0;
+                    line-height: 1.6;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+@include media("lg") {
+    .about-offering {
+        padding: 3rem 0;
+
+        .about-wrapper {
+            .right-content {
+                width: 110%;
+                h1 {
+                    font-size: 1.5rem;
+                }
+                .line {
+                    left: 14.3rem;
+                    width: 1.7rem;
+                }
+            }
+            .left-content{
+                p{
+                    font-size: 0.85rem;
+                }
+            }
+        }
+    }
+}
+@include media("xl") {
+    .about-offering {
+        padding: 4rem 0;
+
+        .about-wrapper {
+            .right-content {
+                width: 100%;
+                h1 {
+                    font-size: 1.7rem;
+                }
+                .line {
+                    left: 17.8rem;
+                    height: 0.1rem;
+                }
+            }
+            .left-content{
+                p{
+                    font-size: 0.95rem;
+                }
+            }
+        }
+    }
+}
+@include media("xxl") {
+    .about-offering{
+        padding: 6rem 0;
+        .about-wrapper{
+            .right-content{
+                width: 75%;
+                margin-right: 3rem;
+                h1{
+                    font-size: 1.8rem;
+                }
+                .line{
+                    left: 18.3rem;
+                }
+            }
+            .left-content{
+                p{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+// /* About offering */
+// .about-offering{
+//     height: 300px;
+// }
+
+// .about-offering .ao-left{
+//     font-family: 'Raleway', sans-serif;
+//     width: 30%;
+//     float: left;
+//     font-size: 36px;
+//     line-height: 40px;
+//     text-align: right;
+//     opacity: 0.75;
+//     margin-top: 90px;
+// }
+
+// .about-offering .ao-left span{
+//     font-family: 'Raleway', sans-serif;
+//     text-decoration: underline;
+//     text-underline-offset: 38px;
+// }
+
+// .about-offering .ao-right{
+//     font-family: 'playfair display', sans-serif;
+//     width: 70%;
+//     float: right;
+//     font-size: 16px;
+//     line-height: 25px;
+//     opacity: .7;
+//     margin-top: 90px;
+//     padding-left: 40px;
+// }
