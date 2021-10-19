@@ -4,13 +4,11 @@ footer {
     padding: 2rem 0;
     background-color: $footer-bkground-color;
 
-    .container{
-        padding: 0;
-
+    .container {
         .row {
             display: flex;
             flex-direction: column;
-    
+
             .footer-col {
                 .logo-social {
                     ul {
@@ -29,7 +27,7 @@ footer {
                             justify-content: center;
                             align-items: center;
                             margin-right: 0.6rem;
-    
+
                             &:hover {
                                 color: $white-color;
                                 background-color: $footer-hover-color;
@@ -39,7 +37,7 @@ footer {
                     }
                 }
             }
-    
+
             .footer-col {
                 h1 {
                     margin: 0;
@@ -58,7 +56,7 @@ footer {
                             color: $white-color;
                             line-height: 1.8;
                             font-size: 0.9rem;
-    
+
                             &:hover {
                                 color: #acb1bc;
                                 padding-left: 10px;
@@ -67,7 +65,7 @@ footer {
                     }
                 }
             }
-    
+
             .footer-col {
                 ul {
                     .freephone {
@@ -90,70 +88,70 @@ footer {
 @include media("sm") {
     footer {
         padding: 2.5rem 0;
-       .container{
-        .row {
-            flex-wrap: wrap;
-            flex-direction: row;
+        .container {
+            .row {
+                flex-wrap: wrap;
+                flex-direction: row;
 
-            .footer-col {
-                width: 25%;
+                .footer-col {
+                    width: 25%;
 
-                .logo-social {
-                    img {
-                        width: 100px;
-                        height: 30px;
+                    .logo-social {
+                        img {
+                            width: 100px;
+                            height: 30px;
+                        }
+                        ul {
+                            margin: 0;
+                            margin: 1rem 0;
+                            a {
+                                width: 24px;
+                                height: 24px;
+                                margin-right: 0rem;
+                                i {
+                                    font-size: 0.8rem;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .footer-col {
+                    h1 {
+                        margin: 0;
+                        margin-top: 0.3rem;
+                        margin-bottom: 0.7rem;
+                        font-size: 1rem;
                     }
                     ul {
-                        margin: 0;
-                        margin: 1rem 0;
-                        a {
-                            width: 24px;
-                            height: 24px;
-                            margin-right: 0rem;
-                            i{
-                                font-size: 0.8rem;
+                        li {
+                            a {
+                                font-size: 0.6rem;
                             }
                         }
                     }
                 }
             }
-
-            .footer-col{
-                h1{
-                    margin: 0;
-                    margin-top: 0.3rem;
-                    margin-bottom: 0.7rem;
-                    font-size: 1rem;
-                }
-                ul{
-                    li{
-                        a{
-                            font-size: 0.6rem;
-                        }
-                    }
-                }
-            }
         }
-       }
     }
 }
 
 @include media("md") {
-    footer{
-        .container{
-            .row{
-                .footer-col{
-                    .logo-social{
+    footer {
+        .container {
+            .row {
+                .footer-col {
+                    .logo-social {
                         img {
                             width: 115px;
                             height: 28px;
                         }
-                        ul{
-                            a{
+                        ul {
+                            a {
                                 width: 25px;
                                 height: 25px;
                                 margin-right: 0.1rem;
-                                i{
+                                i {
                                     font-size: 0.9rem;
                                 }
                             }
@@ -166,20 +164,20 @@ footer {
 }
 
 @include media("lg") {
-    footer{
-        .container{
-            .row{
-                .footer-col{
-                    h1{
+    footer {
+        .container {
+            .row {
+                .footer-col {
+                    h1 {
                         font-size: 1.1rem;
                     }
-                   ul{
-                       li{
-                           a{
-                               font-size: 0.7rem;
-                           }
-                       }
-                   }
+                    ul {
+                        li {
+                            a {
+                                font-size: 0.7rem;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -187,35 +185,35 @@ footer {
 }
 
 @include media("xl") {
-    footer{
+    footer {
         padding: 3rem 0;
-        .container{
-            .row{
-                .footer-col{
-                    .logo-social{
-                        img{
+        .container {
+            .row {
+                .footer-col {
+                    .logo-social {
+                        img {
                             width: 130px;
                             height: 35px;
                         }
-                        ul{
-                            a{
+                        ul {
+                            a {
                                 width: 28px;
                                 height: 28px;
                                 margin-right: 0.1rem;
-                                i{
+                                i {
                                     font-size: 1rem;
                                 }
                             }
                         }
                     }
                 }
-                .footer-col{
-                    h1{
+                .footer-col {
+                    h1 {
                         font-size: 1.2rem;
                     }
-                    ul{
-                        li{
-                            a{
+                    ul {
+                        li {
+                            a {
                                 font-size: 0.75rem;
                             }
                         }
@@ -226,36 +224,36 @@ footer {
     }
 }
 @include media("xxl") {
-    footer{
+    footer {
         padding: 3.5rem 0;
-        .container{
-            .row{
-                .footer-col{
-                    .logo-social{
-                        img{
+        .container {
+            .row {
+                .footer-col {
+                    .logo-social {
+                        img {
                             width: 140px;
                             height: 40px;
                         }
-                        ul{
-                            a{
+                        ul {
+                            a {
                                 width: 28px;
                                 height: 28px;
                                 margin-right: 0.35rem;
-                                i{
+                                i {
                                     font-size: 1rem;
                                 }
                             }
                         }
                     }
                 }
-                .footer-col{
-                    h1{
+                .footer-col {
+                    h1 {
                         // font-weight: normal;
                         font-size: 1.3rem;
                     }
-                    ul{
-                        li{
-                            a{
+                    ul {
+                        li {
+                            a {
                                 font-size: 0.8rem;
                             }
                         }

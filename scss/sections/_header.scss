@@ -63,7 +63,7 @@
                 box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
                 padding: 0.5rem 3rem;
                 background-color: $white-color;
-            
+
                 li {
                     list-style: none;
                     padding-bottom: 0.8rem;
@@ -84,8 +84,10 @@
                     height: 2rem;
                     color: $font-color;
                     border-radius: 50%;
-                    border: 0.1rem solid $header-hover-color;
-                    padding: 0.1rem 0.3rem;
+                    border: 2px solid $header-hover-color;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
 
                     &:hover {
                         background-color: #acb1bc;
@@ -113,62 +115,61 @@
     .site-header {
         padding: 0;
         .wrapper {
-                .nav-wrapper{
-                    input[type="checkbox"]{
-                        &:checked{
-                            display: none;
-                        }
-                    }
-                    .menu-icon{
+            .nav-wrapper {
+                input[type="checkbox"] {
+                    &:checked {
                         display: none;
-                        .fa-bars{
-                            display: none;
-                        }
                     }
-                    .main-menu{
-                        display: flex;
-                        box-shadow: none;
-                        position: initial;
+                }
+                .menu-icon {
+                    display: none;
+                    .fa-bars {
+                        display: none;
+                    }
+                }
+                .main-menu {
+                    display: flex;
+                    box-shadow: none;
+                    position: initial;
+                    padding: 0;
+                    li {
                         padding: 0;
-                        li{
-                            padding: 0;
-                            padding: 1.5rem 0.8rem;
-                            &:hover{
-                                background-color: $header-hover-color;
-                            }
-                            a{
-                                &:hover{
-                                    color: initial;
-                                }
+                        padding: 1.5rem 0.8rem;
+                        &:hover {
+                            background-color: $header-hover-color;
+                        }
+                        a {
+                            &:hover {
+                                color: initial;
                             }
                         }
                     }
-                    .social-media{
-                        margin-left: 0.8rem;
-                    }
+                }
+                .social-media {
+                    margin-left: 0.8rem;
                 }
             }
         }
     }
-
+}
 
 @include media("lg") {
-    .site-header{
-        .wrapper{
-            .site-logo{
-                img{
+    .site-header {
+        .wrapper {
+            .site-logo {
+                img {
                     width: 8rem;
                 }
             }
-            .nav-wrapper{
-                .main-menu{
-                    li{
+            .nav-wrapper {
+                .main-menu {
+                    li {
                         padding: 1.8rem 1.5rem;
                     }
                 }
-                .social-media{
+                .social-media {
                     margin-left: 1rem;
-                    a{
+                    a {
                         margin-left: 0.3rem;
                     }
                 }
@@ -177,16 +178,16 @@
     }
 }
 
-@include media('xl'){
-    .site-header{
-        .wrapper{
-            .nav-wrapper{
-                .main-menu{
-                    li{
+@include media("xl") {
+    .site-header {
+        .wrapper {
+            .nav-wrapper {
+                .main-menu {
+                    li {
                         padding: 1.8rem 1.6rem;
                     }
                 }
-                .social-media{
+                .social-media {
                     margin-left: 1.2rem;
                 }
             }
@@ -194,23 +195,23 @@
     }
 }
 
-@include media('xxl'){
-    .site-header{
-        .wrapper{
-            .site-logo{
-                img{
+@include media("xxl") {
+    .site-header {
+        .wrapper {
+            .site-logo {
+                img {
                     width: 9rem;
                 }
             }
-            .nav-wrapper{
-                .main-menu{
-                    li{
+            .nav-wrapper {
+                .main-menu {
+                    li {
                         padding: 1.8rem 2.6rem;
                     }
                 }
-                .social-media{
+                .social-media {
                     margin-left: 2.6rem;
-                    a{
+                    a {
                         margin-left: 0.5rem;
                     }
                 }
