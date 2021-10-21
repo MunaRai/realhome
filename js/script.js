@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $('#banner-slider').slick({
         dots: true,
         arrows: false,
@@ -28,8 +28,21 @@ $(document).ready(function() {
         autoplay: true,
         Infinite: true,
         slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplayspeed: 50
+        slidesToScroll: 4,
+        autoplayspeed: 50,
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    // arrows: false,
+                    // dots: false,
+                    // autoplay: true,
+                    // Infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 
 });

@@ -184,7 +184,7 @@ body {
 .site-banner {
   margin-top: 4rem; }
   .site-banner .slick-dots {
-    left: 3.6rem;
+    left: 6rem;
     top: 5rem; }
     .site-banner .slick-dots li {
       width: 0.8rem;
@@ -193,7 +193,7 @@ body {
       border: 2px solid #ffffff; }
       .site-banner .slick-dots li button::before {
         display: none; }
-      .site-banner .slick-dots li .slick-active {
+      .site-banner .slick-dots li.slick-active {
         background-color: #ffffff; }
   .site-banner .slider .slider-items {
     text-align: center; }
@@ -206,12 +206,12 @@ body {
         font-family: 'Raleway', sans-serif;
         font-size: 1rem;
         position: absolute;
-        transform: translate(9%, -500%); }
+        transform: translate(16%, -500%); }
       .site-banner .slider .slider-items .items .inner-wrapper h2 {
         position: absolute;
         font-size: 0.9rem;
         font-family: 'Roboto', sans-serif;
-        transform: translate(90px, -357%); }
+        transform: translate(200%, -380%); }
       .site-banner .slider .slider-items .items .inner-wrapper a {
         position: absolute;
         font-size: 0.6rem;
@@ -220,7 +220,7 @@ body {
         font-weight: bold;
         background: rgba(136, 132, 113, 0.2);
         padding: 0.4rem;
-        transform: translate(10%, -230%); }
+        transform: translate(20%, -235%); }
 
 @media (min-width: 576px) {
   .site-banner .slick-dots {
@@ -334,19 +334,20 @@ body {
 .about-offering {
   color: #3c3c3c;
   padding: 2rem 0; }
-  .about-offering .about-wrapper .right-content h1 {
-    margin: 0;
-    font-size: 2rem;
-    text-align: right;
-    padding-bottom: 1.4rem; }
-  .about-offering .about-wrapper .right-content .line {
-    background: #3c3c3c;
-    display: inline-block;
-    width: 1.7rem;
-    height: 0.16rem;
-    opacity: 0.8;
-    position: absolute;
-    left: 17rem; }
+  .about-offering .about-wrapper .right-content {
+    text-align: right; }
+    .about-offering .about-wrapper .right-content h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 2rem;
+      text-align: right; }
+    .about-offering .about-wrapper .right-content .line {
+      background: #3c3c3c;
+      display: inline-block;
+      width: 1.7rem;
+      height: 0.16rem;
+      opacity: 0.8;
+      left: 17rem; }
   .about-offering .about-wrapper .left-content p {
     margin: 0;
     font-size: 0.8rem;
@@ -356,31 +357,24 @@ body {
 
 @media (min-width: 576px) {
   .about-offering .about-wrapper .right-content h1 {
-    font-size: 1.8rem;
-    text-align: center; }
-  .about-offering .about-wrapper .right-content .line {
-    width: 3rem;
-    left: 29.8rem; } }
+    text-align: right;
+    font-size: 1.8rem; } }
 
 @media (min-width: 768px) {
   .about-offering .about-wrapper {
     display: flex;
-    align-items: center;
     width: 100%; }
     .about-offering .about-wrapper .right-content {
       width: 210%;
       margin-right: 2rem; }
       .about-offering .about-wrapper .right-content h1 {
-        padding-bottom: 1.4rem;
         font-size: 1.4rem;
         text-align: right; }
-      .about-offering .about-wrapper .right-content .line {
-        left: 14.6rem;
-        width: 1.9rem; }
     .about-offering .about-wrapper .left-content p {
       padding: 0;
       line-height: 1.6;
-      text-align: left; } }
+      text-align: left;
+      font-size: 0.7rem; } }
 
 @media (min-width: 992px) {
   .about-offering {
@@ -388,12 +382,11 @@ body {
     .about-offering .about-wrapper .right-content {
       width: 110%; }
       .about-offering .about-wrapper .right-content h1 {
-        font-size: 1.5rem; }
+        font-size: 1.6rem; }
       .about-offering .about-wrapper .right-content .line {
-        left: 14.3rem;
         width: 1.7rem; }
     .about-offering .about-wrapper .left-content p {
-      font-size: 0.85rem; } }
+      font-size: 0.8rem; } }
 
 @media (min-width: 1200px) {
   .about-offering {
@@ -403,8 +396,7 @@ body {
       .about-offering .about-wrapper .right-content h1 {
         font-size: 1.7rem; }
       .about-offering .about-wrapper .right-content .line {
-        left: 17.8rem;
-        height: 0.1rem; }
+        height: 0.17rem; }
     .about-offering .about-wrapper .left-content p {
       font-size: 0.95rem; } }
 
@@ -416,8 +408,6 @@ body {
       margin-right: 3rem; }
       .about-offering .about-wrapper .right-content h1 {
         font-size: 1.8rem; }
-      .about-offering .about-wrapper .right-content .line {
-        left: 18.3rem; }
     .about-offering .about-wrapper .left-content p {
       font-size: 1rem; } }
 
@@ -622,7 +612,7 @@ body {
   /* Agent slider section */ }
   .agent-section .slick-dots {
     left: 34%;
-    top: 57%; }
+    top: 60.5%; }
     .agent-section .slick-dots li {
       width: 0.7rem;
       height: 0.7rem;
@@ -630,7 +620,7 @@ body {
       border: 2px solid #acb1bc; }
       .agent-section .slick-dots li button::before {
         display: none; }
-      .agent-section .slick-dots li .slick-active {
+      .agent-section .slick-dots li.slick-active {
         background-color: #e2574c;
         border: 2px solid #e2574c; }
   .agent-section .agent .agent-content .agent-img {
@@ -963,10 +953,10 @@ body {
 
 .client-section .client-wrap {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column; }
+  flex-wrap: wrap; }
   .client-section .client-wrap .slide {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    text-align: center; }
     .client-section .client-wrap .slide img {
       width: 140px;
       height: 40px; }
@@ -976,7 +966,7 @@ body {
     flex-direction: row; }
     .client-section .client-wrap .slide img {
       width: 130px;
-      height: 35px;
+      height: 30px;
       padding: 0 1rem; } }
 
 @media (min-width: 768px) {

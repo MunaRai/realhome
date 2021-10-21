@@ -15,9 +15,11 @@
     .client-wrap {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        // flex-direction: column; 
         .slide {
             margin-bottom: 2rem;
+            text-align: center;
+
             img {
                 width: 140px;
                 height: 40px;
@@ -33,7 +35,7 @@
             .slide {
                 img {
                     width: 130px;
-                    height: 35px;
+                    height: 30px;
                     padding: 0 1rem;
                 }
             }

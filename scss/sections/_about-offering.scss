@@ -4,11 +4,13 @@
 
     .about-wrapper {
         .right-content {
+            text-align: right;
             h1 {
                 margin: 0;
+                padding: 0;
                 font-size: 2rem;
                 text-align: right;
-                padding-bottom: 1.4rem;
+                // padding-bottom: 1.4rem;
             }
             .line {
                 background: $font-color;
@@ -16,7 +18,6 @@
                 width: 1.7rem;
                 height: 0.16rem;
                 opacity: 0.8;
-                position: absolute;
                 left: 17rem;
             }
         }
@@ -37,13 +38,13 @@
         .about-wrapper {
             .right-content {
                 h1 {
+                    text-align: right;
                     font-size: 1.8rem;
-                    text-align: center;
                 }
-                .line {
-                    width: 3rem;
-                    left: 29.8rem;
-                }
+                // .line {
+                    // width: 3rem;
+                    // left: 29.8rem;
+                // }
             }
         }
     }
@@ -52,20 +53,14 @@
     .about-offering {
         .about-wrapper {
             display: flex;
-            align-items: center;
             width: 100%;
 
             .right-content {
                 width: 210%;
                 margin-right: 2rem;
                 h1 {
-                    padding-bottom: 1.4rem;
                     font-size: 1.4rem;
                     text-align: right;
-                }
-                .line {
-                    left: 14.6rem;
-                    width: 1.9rem;
                 }
             }
             .left-content {
@@ -73,6 +68,7 @@
                     padding: 0;
                     line-height: 1.6;
                     text-align: left;
+                    font-size: 0.7rem;
                 }
             }
         }
@@ -86,16 +82,15 @@
             .right-content {
                 width: 110%;
                 h1 {
-                    font-size: 1.5rem;
+                    font-size: 1.6rem;
                 }
                 .line {
-                    left: 14.3rem;
                     width: 1.7rem;
                 }
             }
             .left-content{
                 p{
-                    font-size: 0.85rem;
+                    font-size: 0.8rem;
                 }
             }
         }
@@ -112,8 +107,7 @@
                     font-size: 1.7rem;
                 }
                 .line {
-                    left: 17.8rem;
-                    height: 0.1rem;
+                    height: 0.17rem;
                 }
             }
             .left-content{
@@ -133,9 +127,6 @@
                 margin-right: 3rem;
                 h1{
                     font-size: 1.8rem;
-                }
-                .line{
-                    left: 18.3rem;
                 }
             }
             .left-content{
