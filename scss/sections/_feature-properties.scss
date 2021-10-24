@@ -139,37 +139,39 @@
         }
     }
 }
-@include media("lg") {
-    .properties-section{
-        padding: 3.5rem 0;
+// @include media("lg") {
+//     .properties-section{
+//         padding: 3.5rem 0;
 
-        .property-details{
-            h1{
-                font-size: 1.8rem;
-            }
-            p{
-                font-size: 0.75rem;
-                padding: 0 17rem;
-                padding-top: 1.2rem;
-                padding-bottom: 2.5rem;
-            }
-        }
-        .properties{
-            .property{
-                .inner-wrapper{
-                    .content{
-                        h2{
-                            font-size: 1.1rem;
-                        }
-                        .p-details{
-                            padding: 0.6rem 2.4rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+//         .property-details{
+//             h1{
+//                 font-size: 1.8rem;
+//             }
+//             p{
+//                 font-size: 0.75rem;
+//                 padding: 1.2rem 17rem 2.5rem;
+//                 // padding: 0 10rem;
+//                 // padding-top: 1.2rem;
+//                 // padding-bottom: 2.5rem;
+//             }
+//         }
+//         .properties{
+//             .property{
+//                 width: 32%;
+//                 .inner-wrapper{
+//                     .content{
+//                         h2{
+//                             font-size: 1.1rem;
+//                         }
+//                         .p-details{
+//                             padding: 0.6rem 2rem;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 @include media("lg") {
     .properties-section{
         .property-details{
@@ -178,20 +180,21 @@
             }
 
             p{
-                padding: 1.2rem 23rem 2.5rem;
+                padding: 1.2rem 17rem 2.5rem;
             }
         }
         .properties{
             .property{
+                width: 32%;
                 .inner-wrapper{
                     .image{
                         height: 220px;
-                    }
+   g                 }
                     .content{
                         margin-bottom: 1.5rem;
 
                         .p-details{
-                            padding: 0.6rem 4rem;
+                            padding: 0.6rem 2rem;
                         }
                     }
                 }
