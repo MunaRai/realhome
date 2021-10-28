@@ -17,31 +17,6 @@ body {
 
 /* Media queries break points */
 /* Container width for different view port */
-.container {
-  padding: 0 15px;
-  margin: 0 auto; }
-
-@media (min-width: 576px) {
-  .container {
-    width: 540px; } }
-
-@media (min-width: 768px) {
-  .container {
-    width: 720px;
-    padding: 0; } }
-
-@media (min-width: 992px) {
-  .container {
-    width: 960px; } }
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1140px; } }
-
-@media (min-width: 1400px) {
-  .container {
-    width: 1320px; } }
-
 .hr-line {
   background: #e2574c;
   display: inline-block;
@@ -566,14 +541,12 @@ body {
     font-size: 1.9rem; }
   .properties-section .property-details p {
     padding: 1.2rem 17rem 2.5rem; }
-  .properties-section .properties .property {
-    width: 32%; }
-    .properties-section .properties .property .inner-wrapper .image {
-      height: 220px; }
-    .properties-section .properties .property .inner-wrapper .content {
-      margin-bottom: 1.5rem; }
-      .properties-section .properties .property .inner-wrapper .content .p-details {
-        padding: 0.6rem 2rem; } }
+  .properties-section .properties .property .inner-wrapper .image {
+    height: 220px; }
+  .properties-section .properties .property .inner-wrapper .content {
+    margin-bottom: 1.5rem; }
+    .properties-section .properties .property .inner-wrapper .content .p-details {
+      padding: 0.6rem 2rem; } }
 
 @media (min-width: 1200px) {
   .properties-section {

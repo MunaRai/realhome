@@ -5,9 +5,11 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Real Home</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Googlefonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,6 +43,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/frame.css"> -->
 
+    <title>Real Home</title>
 
 </head>
 
@@ -235,17 +238,18 @@
     <div class="properties-section">
 
         <div class="container">
-
             <div class="property-details">
                 <h1>Featured Properties </h1>
                 <span class="hr-line"></span>
                 <p>Quisque diam lorem interdum vitaapibus vitae pede. Donec eget tellus non erat
                     lacinia fertum. Donec in velit vel ipsum auctovinar.</p>
             </div>
+        </div>
 
-            <div class="properties">
 
-                <div class="property">
+        <div class="container">
+            <div class="row">
+                <div class="property col-6">
                     <div class="inner-wrapper">
                         <div class="image" style="background-image: url(img/gallery1.jpg); "></div>
                         <div class="content">
@@ -257,8 +261,36 @@
                         </div>
                     </div>
                 </div>
+                <div class="property  col-6">
+                    <div class="inner-wrapper">
+                        <div class="image" style="background-image: url(img/gallery1.jpg); "></div>
+                        <div class="content">
+                            <h2>1450 Cloudcroft Drop</h2>
+                            <p>Illinois / Chicago</p>
+                            <span>$250,000</span>
+                            <p class="p-details">3400 Sq Ft &emsp; <i class="fas fa-circle"></i> 2 Bedrooms &emsp; <i
+                                    class="fas fa-circle"></i> 1 Bathroom</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="property col-6">
+                    <div class="inner-wrapper">
+                        <div class="image" style="background-image: url(img/gallery1.jpg); "></div>
+                        <div class="content">
+                            <h2>1450 Cloudcroft Drop</h2>
+                            <p>Illinois / Chicago</p>
+                            <span>$250,000</span>
+                            <p class="p-details">3400 Sq Ft &emsp; <i class="fas fa-circle"></i> 2 Bedrooms &emsp; <i
+                                    class="fas fa-circle"></i> 1 Bathroom</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <div class="property">
+
+
+        <!-- <div class="property">
                     <div class="inner-wrapper">
                         <div class="image" style="background-image: url(img/gallery2.jpg);"></div>
                         <div class="content">
@@ -321,13 +353,13 @@
                                     class="fas fa-circle"></i> 1 Bathroom</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-            </div>
+    </div>
 
-            <a href="#" class="primary-button">ALL PROPERTIES</a>
+    <a href="#" class="primary-button">ALL PROPERTIES</a>
 
-        </div>
+    </div>
 
     </div>
 
@@ -589,13 +621,21 @@
     </footer>
 
     <!-- Script -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="vendor/slick/slick.js"></script>
 
     <script type="text/javascript" src="js/script.js"></script>
-
 
 
 </body>
