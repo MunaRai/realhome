@@ -1,27 +1,27 @@
-@mixin media($screen) {
-    @if $screen =='sm'{
-        @media (min-width: $sm-break-point) {
-            @content;
-        }
-    }
-    @else if $screen =='md'{
-        @media (min-width: $md-break-point) {
-            @content;
-        }
-    } 
-    @else if $screen =='lg'{
-        @media (min-width: $lg-break-point) {
-            @content;
-        }
-    }
-    @else if $screen =='xl'{
-        @media (min-width: $xl-break-point) {
-            @content;
-        }
-    }
-    @else if $screen =='xxl'{
-        @media (min-width: $xxl-break-point) {
-            @content;
-        }
-    }
-}
+// @mixin media($screen) {
+//     @if $screen =='sm'{
+//         @media (min-width: $sm-break-point) {
+//             @content;
+//         }
+//     }
+//     @else if $screen =='md'{
+//         @media (min-width: $md-break-point) {
+//             @content;
+//         }
+//     } 
+//     @else if $screen =='lg'{
+//         @media (min-width: $lg-break-point) {
+//             @content;
+//         }
+//     }
+//     @else if $screen =='xl'{
+//         @media (min-width: $xl-break-point) {
+//             @content;
+//         }
+//     }
+//     @else if $screen =='xxl'{
+//         @media (min-width: $xxl-break-point) {
+//             @content;
+//         }
+//     }
+// }
