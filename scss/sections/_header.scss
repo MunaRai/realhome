@@ -3,6 +3,7 @@
     margin: 0;
 }
 header {
+    height: 5rem;
     .container {
         .row {
             .col-8 {
@@ -13,7 +14,7 @@ header {
                         &:hover{
                             background-color: $header-hover-color;
                         }
-                        a {
+                        a { 
                             color: $font-color;
                             text-decoration: none;
                         }

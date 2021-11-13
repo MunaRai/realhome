@@ -1,168 +1,231 @@
-/* featured properties style */
-
-.properties-section {
+.property-section {
+    padding: 4rem 0;
+    margin: 0;
     background-color: $feature-bkground-color;
     text-align: center;
-    padding: 2rem 0;
 
-    .property-details {
-        h1 {
-            margin: 0;
-            font-family: "Raleway";
-            font-size: 1.4rem;
+    .container {
+        .property-header {
+            h1 {
+                margin: 0;
+                font-size: 2.5rem;
+                padding-bottom: 1rem;
+            }
+            p {
+                font-size: 1rem;
+                padding: 0 18rem;
+                padding-top: 1rem;
+                padding-bottom: 2rem;
+                opacity: 0.8;
+            }
         }
-        p {
-            margin: 0;
-            font-size: 0.7rem;
-            padding: 0 0.6rem;
-            padding-top: 0.8rem;
-            padding-bottom: 2rem;
-            opacity: 0.8;
-        }
-    }
-    .properties {
-        .property {
-            .inner-wrapper {
+
+        .row {
+            .col-4 {
                 background-color: $white-color;
+                text-align: center;
+
                 .image {
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
-                    height: 200px;
+                    height: 250px;
                 }
-                .content {
-                    h2 {
-                        margin: 0;
-                        font-size: 1rem;
-                        padding-top: 1rem;
-                    }
-                    p {
-                        margin: 0;
-                        padding-top: 0.4rem;
-                        padding-bottom: 0.6rem;
-                        font-size: 0.7rem;
-                        opacity: 0.8;
-                    }
-                    span {
-                        font-size: 0.9rem;
-                        font-weight: bold;
-                        color: $primary-color;
-                    }
-                    .p-details {
-                        margin: 1rem 0;
-                        padding: 0.6rem 0;
-                        border-top-style: solid;
-                        border-top-width: 0.18rem;
-                        border-top-color: $feature-bkground-color;
+                h2 {
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                    margin-top: 1rem;
+                }
+                p {
+                    font-size: 0.9rem;
+                    opacity: 0.8;
+                }
+                span {
+                    font-weight: bold;
+                    color: $primary-color;
+                }
+                .p-details {
+                    margin: 0;
+                    padding: 0.6rem 0;
+                    border-top-style: solid;
+                    border-top-width: 0.18rem;
+                    border-top-color: $feature-bkground-color;
 
-                        i {
-                            font-weight: 600;
-                            font-size: 0.4rem;
-                            opacity: 0.3;
-                            padding-right: 0.5rem;
-                        }
+                    i {
+                        font-weight: 600;
+                        font-size: 0.4rem;
+                        opacity: 0.3;
+                        padding-right: 0.5rem;
                     }
                 }
             }
         }
-    }
-    a {
-        margin: 1rem 0;
-    }
-}
-@include media("sm") {
-    .properties-section {
-        .property-details {
-            p {
-                line-height: 1.6;
-                padding: 0 4rem;
-                padding-top: 0.8rem;
-                padding-bottom: 2rem;
-            }
-        }
-        .properties {
-            .property {
-                .inner-wrapper {
-                    .image {
-                        height: 300px;
-                    }
-                }
-            }
+        .primary-button{
+            margin-top: 3rem;
+            margin-bottom: 5rem;
         }
     }
 }
-@include media("md") {
-    .properties-section {
-        padding: 3rem 0;
 
-        .property-details {
-            h1 {
-                font-size: 1.6rem;
-                padding-bottom: 0.5rem;
-            }
-            .hr-line {
-                width: 5rem;
-                height: 0.12rem;
-            }
-            p {
-                padding: 0 10.7rem;
-                padding-top: 1rem;
-                padding-bottom: 2.2rem;
-            }
-        }
-        .properties {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
+// .properties-section {
+//     background-color: $feature-bkground-color;
+//     text-align: center;
+//     padding: 2rem 0;
 
-            .property {
-                flex-direction: row;
+//     .property-details {
+//         h1 {
+//             margin: 0;
+//             font-family: "Raleway";
+//             font-size: 1.4rem;
+//         }
+//         p {
+//             margin: 0;
+//             font-size: 0.7rem;
+//             padding: 0 0.6rem;
+//             padding-top: 0.8rem;
+//             padding-bottom: 2rem;
+//             opacity: 0.8;
+//         }
+//     }
+//     .properties {
+//         .property {
+//             .inner-wrapper {
+//                 background-color: $white-color;
+//                 .image {
+//                     background-repeat: no-repeat;
+//                     background-size: cover;
+//                     background-position: center;
+//                     height: 200px;
+//                 }
+//                 .content {
+//                     h2 {
+//                         margin: 0;
+//                         font-size: 1rem;
+//                         padding-top: 1rem;
+//                     }
+//                     p {
+//                         margin: 0;
+//                         padding-top: 0.4rem;
+//                         padding-bottom: 0.6rem;
+//                         font-size: 0.7rem;
+//                         opacity: 0.8;
+//                     }
+//                     span {
+//                         font-size: 0.9rem;
+//                         font-weight: bold;
+//                         color: $primary-color;
+//                     }
+//                     .p-details {
+//                         margin: 1rem 0;
+//                         padding: 0.6rem 0;
+//                         border-top-style: solid;
+//                         border-top-width: 0.18rem;
+//                         border-top-color: $feature-bkground-color;
 
-                .inner-wrapper {
-                    .image {
-                        height: 200px;
-                    }
-                    .content {
-                        h2 {
-                            font-size: 1rem;
-                        }
-                        .p-details{
-                            padding: 0.6rem 3.7rem;
+//                         i {
+//                             font-weight: 600;
+//                             font-size: 0.4rem;
+//                             opacity: 0.3;
+//                             padding-right: 0.5rem;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     a {
+//         margin: 1rem 0;
+//     }
+// }
+// @include media("sm") {
+//     .properties-section {
+//         .property-details {
+//             p {
+//                 line-height: 1.6;
+//                 padding: 0 4rem;
+//                 padding-top: 0.8rem;
+//                 padding-bottom: 2rem;
+//             }
+//         }
+//         .properties {
+//             .property {
+//                 .inner-wrapper {
+//                     .image {
+//                         height: 300px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+// @include media("md") {
+//     .properties-section {
+//         padding: 3rem 0;
 
-                            i{
-                                padding-right: 0.4rem;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+//         .property-details {
+//             h1 {
+//                 font-size: 1.6rem;
+//                 padding-bottom: 0.5rem;
+//             }
+//             .hr-line {
+//                 width: 5rem;
+//                 height: 0.12rem;
+//             }
+//             p {
+//                 padding: 0 10.7rem;
+//                 padding-top: 1rem;
+//                 padding-bottom: 2.2rem;
+//             }
+//         }
+//         .properties {
+//             display: flex;
+//             justify-content: space-between;
+//             flex-wrap: wrap;
+
+//             .property {
+//                 flex-direction: row;
+
+//                 .inner-wrapper {
+//                     .image {
+//                         height: 200px;
+//                     }
+//                     .content {
+//                         h2 {
+//                             font-size: 1rem;
+//                         }
+//                         .p-details{
+//                             padding: 0.6rem 3.7rem;
+
+//                             i{
+//                                 padding-right: 0.4rem;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
 // @include media("lg") {
 //     .properties-section{
-//         padding: 3.5rem 0;
-
 //         .property-details{
 //             h1{
-//                 font-size: 1.8rem;
+//                 font-size: 1.9rem;
 //             }
+
 //             p{
-//                 font-size: 0.75rem;
 //                 padding: 1.2rem 17rem 2.5rem;
-//                 // padding: 0 10rem;
-//                 // padding-top: 1.2rem;
-//                 // padding-bottom: 2.5rem;
 //             }
 //         }
 //         .properties{
 //             .property{
-//                 width: 32%;
 //                 .inner-wrapper{
+//                     .image{
+//                         height: 220px;             }
 //                     .content{
-//                         h2{
-//                             font-size: 1.1rem;
-//                         }
+//                         margin-bottom: 1.5rem;
+
 //                         .p-details{
 //                             padding: 0.6rem 2rem;
 //                         }
@@ -172,81 +235,52 @@
 //         }
 //     }
 // }
-@include media("lg") {
-    .properties-section{
-        .property-details{
-            h1{
-                font-size: 1.9rem;
-            }
+// @include media("xl"){
+//     .properties-section{
+//         padding: 4rem 0;
 
-            p{
-                padding: 1.2rem 17rem 2.5rem;
-            }
-        }
-        .properties{
-            .property{
-                // width: 32%;
-                .inner-wrapper{
-                    .image{
-                        height: 220px;             }
-                    .content{
-                        margin-bottom: 1.5rem;
+//         .properties{
+//             .property{
+//                 .inner-wrapper{
+//                     .image{
+//                         height: 230px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+// @include media("xxl"){
+//     .properties-section{
+//         .property-details{
+//             h1{
+//                 font-size: 2rem;
+//             }
 
-                        .p-details{
-                            padding: 0.6rem 2rem;
-                        }
-                    }
-                }
-            }
-        }
-    }   
-}
-@include media("xl"){
-    .properties-section{
-        padding: 4rem 0;
-        
-        .properties{
-            .property{
-                .inner-wrapper{
-                    .image{
-                        height: 230px;
-                    }
-                }
-            }
-        }
-    }
-}
-@include media("xxl"){
-    .properties-section{
-        .property-details{
-            h1{
-                font-size: 2rem;
-            }
-
-            p{
-                padding: 1.2rem 28rem 2.5rem;
-            }
-        }
-        .properties{
-            .property{
-                .inner-wrapper{
-                    .image{
-                        height: 240px;
-                    }
-                    .content{
-                        .p-details{
-                            padding: 0.6rem 5.9rem;
-                        }
-                    }
-                }
-            }
-        }
-        .primary-button{
-            font-size: 1rem;
-            padding: 0.8rem 1.4rem;
-        }
-    }  
-}
+//             p{
+//                 padding: 1.2rem 28rem 2.5rem;
+//             }
+//         }
+//         .properties{
+//             .property{
+//                 .inner-wrapper{
+//                     .image{
+//                         height: 240px;
+//                     }
+//                     .content{
+//                         .p-details{
+//                             padding: 0.6rem 5.9rem;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//         .primary-button{
+//             font-size: 1rem;
+//             padding: 0.8rem 1.4rem;
+//         }
+//     }
+// }
 // /* .properties-section{
 //     background: #f6f6f6;
 // } */
