@@ -1,103 +1,126 @@
-/* Client style */
-
-.client-section {
-    .heading {
-        p {
-            text-align: center;
-            margin: 0;
-            padding: 2rem 0;
-            font-size: 1.5rem;
-            span {
-                font-weight: bolder;
+.client-section{
+    padding: 3rem 0;
+    .row{
+        .col-4{
+            p{
+                text-align: left;
+                font-size: 1.8rem;
+                span{
+                    font-weight: bold;
+                }
             }
         }
-    }
-    .client-wrap {
-        display: flex;
-        flex-wrap: wrap;
-        // flex-direction: column; 
-        .slide {
-            margin-bottom: 2rem;
-            text-align: center;
 
-            img {
-                width: 130px;
-                height: 35px;
+        .carousel-inner{
+            .carousel-item{
+                .col-2{
+                    img{
+                        width: 135px;
+                        height: 30px;
+                    }
+                }
             }
         }
     }
 }
 
-@include media("sm") {
-    .client-section {
-        .client-wrap {
-            flex-direction: row;
-            .slide {
-                img {
-                    width: 130px;
-                    height: 30px;
-                    padding: 0 1rem;
-                }
-            }
-        }
-    }
-}
-@include media("md") {
-    .client-section {
-        .client-wrap {
-            .slide {
-                img {
-                    width: 135px;
-                    height: 30px;
-                }
-            }
-        }
-    }
-}
-@include media("lg") {
-    .client-section {
-        .inner-wrapper {
-           padding: 2.5rem 0;
-            .heading{
-                float: left;
-                margin-right: 6rem;
-                p{
-                    padding: 0;
-                    font-size: 1.3rem;
-                }
-            }
-            .client-wrap{
-                .slide{
-                    margin-bottom: 0;
-                }
-            }
-        }
-    }
-}
-@include media("xl") {
-    .client-section{
-        .inner-wrapper{
-            padding: 3.5rem 0;
-            .heading{
-                p{
-                    font-size: 1.4rem;
-                }
-            }
-        }
-    }
-}
-@include media("xxl") {
-    .client-section{
-        .inner-wrapper{
-            padding: 5rem 0;
-            .heading{
-                p{
-                    font-size: 1.5rem;
-                }
-            }
-        }
-    }
-}
+// .client-section {
+//     .heading {
+//         p {
+//             text-align: center;
+//             margin: 0;
+//             padding: 2rem 0;
+//             font-size: 1.5rem;
+//             span {
+//                 font-weight: bolder;
+//             }
+//         }
+//     }
+//     .client-wrap {
+//         display: flex;
+//         flex-wrap: wrap;
+//         .slide {
+//             margin-bottom: 2rem;
+//             text-align: center;
+
+//             img {
+//                 width: 130px;
+//                 height: 35px;
+//             }
+//         }
+//     }
+// }
+
+// @include media("sm") {
+//     .client-section {
+//         .client-wrap {
+//             flex-direction: row;
+//             .slide {
+//                 img {
+//                     width: 130px;
+//                     height: 30px;
+//                     padding: 0 1rem;
+//                 }
+//             }
+//         }
+//     }
+// }
+// @include media("md") {
+//     .client-section {
+//         .client-wrap {
+//             .slide {
+//                 img {
+//                     width: 135px;
+//                     height: 30px;
+//                 }
+//             }
+//         }
+//     }
+// }
+// @include media("lg") {
+//     .client-section {
+//         .inner-wrapper {
+//            padding: 2.5rem 0;
+//             .heading{
+//                 float: left;
+//                 margin-right: 6rem;
+//                 p{
+//                     padding: 0;
+//                     font-size: 1.3rem;
+//                 }
+//             }
+//             .client-wrap{
+//                 .slide{
+//                     margin-bottom: 0;
+//                 }
+//             }
+//         }
+//     }
+// }
+// @include media("xl") {
+//     .client-section{
+//         .inner-wrapper{
+//             padding: 3.5rem 0;
+//             .heading{
+//                 p{
+//                     font-size: 1.4rem;
+//                 }
+//             }
+//         }
+//     }
+// }
+// @include media("xxl") {
+//     .client-section{
+//         .inner-wrapper{
+//             padding: 5rem 0;
+//             .heading{
+//                 p{
+//                     font-size: 1.5rem;
+//                 }
+//             }
+//         }
+//     }
+// }
 // .client-section{
 //     background: #fff;
 // }

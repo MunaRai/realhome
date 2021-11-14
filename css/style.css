@@ -334,74 +334,28 @@ header {
     .testimonial-section .t-content span {
       font-size: 0.8rem; }
 
-/* Client style */
-.client-section .heading p {
-  text-align: center;
-  margin: 0;
-  padding: 2rem 0;
-  font-size: 1.5rem; }
-  .client-section .heading p span {
-    font-weight: bolder; }
-
-.client-section .client-wrap {
-  display: flex;
-  flex-wrap: wrap; }
-  .client-section .client-wrap .slide {
-    margin-bottom: 2rem;
-    text-align: center; }
-    .client-section .client-wrap .slide img {
-      width: 130px;
-      height: 35px; }
-
-@media (min-width: 576px) {
-  .client-section .client-wrap {
-    flex-direction: row; }
-    .client-section .client-wrap .slide img {
-      width: 130px;
-      height: 30px;
-      padding: 0 1rem; } }
-
-@media (min-width: 768px) {
-  .client-section .client-wrap .slide img {
+.client-section {
+  padding: 3rem 0; }
+  .client-section .row .col-4 p {
+    text-align: left;
+    font-size: 1.8rem; }
+    .client-section .row .col-4 p span {
+      font-weight: bold; }
+  .client-section .row .carousel-inner .carousel-item .col-2 img {
     width: 135px;
-    height: 30px; } }
+    height: 30px; }
 
-@media (min-width: 992px) {
-  .client-section .inner-wrapper {
-    padding: 2.5rem 0; }
-    .client-section .inner-wrapper .heading {
-      float: left;
-      margin-right: 6rem; }
-      .client-section .inner-wrapper .heading p {
-        padding: 0;
-        font-size: 1.3rem; }
-    .client-section .inner-wrapper .client-wrap .slide {
-      margin-bottom: 0; } }
-
-@media (min-width: 1200px) {
-  .client-section .inner-wrapper {
-    padding: 3.5rem 0; }
-    .client-section .inner-wrapper .heading p {
-      font-size: 1.4rem; } }
-
-@media (min-width: 1400px) {
-  .client-section .inner-wrapper {
-    padding: 5rem 0; }
-    .client-section .inner-wrapper .heading p {
-      font-size: 1.5rem; } }
-
-/* Footer style */
 footer {
-  padding: 2rem 0;
+  padding: 3rem 0;
   background-color: #303030; }
-  footer .container .row {
-    display: flex;
-    flex-direction: column; }
-    footer .container .row .footer-col .logo-social ul {
+  footer .row .col-3 {
+    text-align: left;
+    padding: 0; }
+    footer .row .col-3 .social-logo ul {
       padding: 0;
       margin: 0;
       margin: 1.5rem 0; }
-      footer .container .row .footer-col .logo-social ul a {
+      footer .row .col-3 .social-logo ul a {
         width: 32px;
         height: 32px;
         background: #ffffff;
@@ -413,111 +367,26 @@ footer {
         justify-content: center;
         align-items: center;
         margin-right: 0.6rem; }
-        footer .container .row .footer-col .logo-social ul a:hover {
+        footer .row .col-3 .social-logo ul a:hover {
           color: #ffffff;
           background-color: #797979;
           border: 2px solid #797979; }
-    footer .container .row .footer-col h1 {
+    footer .row .col-3 h1 {
       margin: 0;
-      margin: 0.8rem 0;
+      font-size: 1.4rem;
       color: #ffffff;
-      font-size: 1.5rem;
-      font-weight: normal; }
-    footer .container .row .footer-col ul {
-      margin: 0;
+      margin-bottom: 1rem; }
+    footer .row .col-3 ul {
       padding: 0; }
-      footer .container .row .footer-col ul li {
-        list-style: none;
-        padding: 0; }
-        footer .container .row .footer-col ul li a {
+      footer .row .col-3 ul li {
+        list-style: none; }
+        footer .row .col-3 ul li a {
+          text-decoration: none;
           color: #ffffff;
-          line-height: 1.8;
-          font-size: 0.9rem; }
-          footer .container .row .footer-col ul li a:hover {
+          font-size: 0.85rem;
+          line-height: 1.7; }
+          footer .row .col-3 ul li a:hover {
             color: #acb1bc;
             padding-left: 10px; }
-    footer .container .row .footer-col ul .freephone {
-      padding-top: 0.5rem; }
-    footer .container .row .footer-col ul .fax {
-      padding-bottom: 0.5rem; }
-    footer .container .row .footer-col ul a span {
-      color: #e2574c; }
-
-@media (min-width: 576px) {
-  footer {
-    padding: 2.5rem 0; }
-    footer .container .row {
-      flex-wrap: wrap;
-      flex-direction: row; }
-      footer .container .row .footer-col {
-        width: 25%; }
-        footer .container .row .footer-col .logo-social img {
-          width: 100px;
-          height: 30px; }
-        footer .container .row .footer-col .logo-social ul {
-          margin: 0;
-          margin: 1rem 0; }
-          footer .container .row .footer-col .logo-social ul a {
-            width: 24px;
-            height: 24px;
-            margin-right: 0rem; }
-            footer .container .row .footer-col .logo-social ul a i {
-              font-size: 0.8rem; }
-      footer .container .row .footer-col h1 {
-        margin: 0;
-        margin-top: 0.3rem;
-        margin-bottom: 0.7rem;
-        font-size: 1rem; }
-      footer .container .row .footer-col ul li a {
-        font-size: 0.6rem; } }
-
-@media (min-width: 768px) {
-  footer .container .row .footer-col .logo-social img {
-    width: 115px;
-    height: 28px; }
-  footer .container .row .footer-col .logo-social ul a {
-    width: 25px;
-    height: 25px;
-    margin-right: 0.1rem; }
-    footer .container .row .footer-col .logo-social ul a i {
-      font-size: 0.9rem; } }
-
-@media (min-width: 992px) {
-  footer .container .row .footer-col h1 {
-    font-size: 1.1rem; }
-  footer .container .row .footer-col ul li a {
-    font-size: 0.7rem; } }
-
-@media (min-width: 1200px) {
-  footer {
-    padding: 3rem 0; }
-    footer .container .row .footer-col .logo-social img {
-      width: 130px;
-      height: 35px; }
-    footer .container .row .footer-col .logo-social ul a {
-      width: 28px;
-      height: 28px;
-      margin-right: 0.1rem; }
-      footer .container .row .footer-col .logo-social ul a i {
-        font-size: 1rem; }
-    footer .container .row .footer-col h1 {
-      font-size: 1.2rem; }
-    footer .container .row .footer-col ul li a {
-      font-size: 0.75rem; } }
-
-@media (min-width: 1400px) {
-  footer {
-    padding: 3.5rem 0; }
-    footer .container .row .footer-col .logo-social img {
-      width: 140px;
-      height: 40px; }
-    footer .container .row .footer-col .logo-social ul a {
-      width: 28px;
-      height: 28px;
-      margin-right: 0.35rem; }
-      footer .container .row .footer-col .logo-social ul a i {
-        font-size: 1rem; }
-    footer .container .row .footer-col h1 {
-      font-size: 1.3rem; }
-    footer .container .row .footer-col ul li a {
-      font-size: 0.8rem; } }
+          footer .row .col-3 ul li a span {
+            color: #e2574c; }
