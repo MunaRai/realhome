@@ -5,12 +5,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
 
     .slick-dots {
-        left: 30%;
-        top: 100%;
+        left: 46%;
+        top: 110%;
     }
     .slick-dots li {
         width: 0.7rem;
@@ -53,148 +53,149 @@
 
         h1 {
             margin: 0;
-            font-size: 1.2rem;
+            font-size: 2.3rem;
+            margin-bottom: 1rem;
         }
-        .hr-line{
+        .hr-line {
             height: 0.15rem;
         }
         p {
             margin: 0;
-            font-size: 0.8rem;
-            padding: 0.6rem 2rem;
+            font-size: 0.966rem;
+            padding: 1rem 20rem;
+            line-height: 1.5;
         }
         span {
-            font-size: 0.6rem;
+            font-size: 0.8rem;
         }
     }
 }
 
-@include media("sm") {
-    .testimonial-section {
-        .slick-dots {
-            left: 39%;
-            top: 100%;
-        }
-        .prev-arrow {
-            right: 100%;
-            bottom: 30%;
-        }
-        .next-arrow {
-            right: 100%;
-            bottom: 30%;
-        }
-        .t-content{
-            p{
-                padding: 0.6rem 3rem;
-            }
-        }
-    }
-}
-@include media("md") {
-    .testimonial-section {
-        padding-top: 3rem;
-        padding-bottom: 5rem;
+// @include media("sm") {
+//     .testimonial-section {
+//         .slick-dots {
+//             left: 39%;
+//             top: 100%;
+//         }
+//         .prev-arrow {
+//             right: 100%;
+//             bottom: 30%;
+//         }
+//         .next-arrow {
+//             right: 100%;
+//             bottom: 30%;
+//         }
+//         .t-content{
+//             p{
+//                 padding: 0.6rem 3rem;
+//             }
+//         }
+//     }
+// }
+// @include media("md") {
+//     .testimonial-section {
+//         padding-top: 3rem;
+//         padding-bottom: 5rem;
 
-        .slick-dots {
-            left: 42%;
-            top: 100%;
-        }
-        .prev-arrow {
-            right: 98%;
-            bottom: 30%;
-            font-size: 1.2rem;
-        }
-        .next-arrow {
-            right: 98%;
-            bottom: 30%;
-            font-size: 1.2rem;
-        }
+//         .slick-dots {
+//             left: 42%;
+//             top: 100%;
+//         }
+//         .prev-arrow {
+//             right: 98%;
+//             bottom: 30%;
+//             font-size: 1.2rem;
+//         }
+//         .next-arrow {
+//             right: 98%;
+//             bottom: 30%;
+//             font-size: 1.2rem;
+//         }
 
-        .t-content {
-            h1 {
-                font-size: 1.5rem;
-                padding-bottom: 0.6rem;
-            }
-            p{
-                font-size: 0.9rem;
-                padding: 0.8rem 8rem;
-            }
-            span{
-                font-size: 0.8rem;
-            }
-        }
-    }
-}
-@include media("lg") {
-    .testimonial-section{
-        padding-top: 4rem;
-        padding-bottom: 6rem;
+//         .t-content {
+//             h1 {
+//                 font-size: 1.5rem;
+//                 padding-bottom: 0.6rem;
+//             }
+//             p{
+//                 font-size: 0.9rem;
+//                 padding: 0.8rem 8rem;
+//             }
+//             span{
+//                 font-size: 0.8rem;
+//             }
+//         }
+//     }
+// }
+// @include media("lg") {
+//     .testimonial-section{
+//         padding-top: 4rem;
+//         padding-bottom: 6rem;
 
-        .slick-dots {
-            left: 44%;
-            top: 100%;
-        }
-        .prev-arrow {
-            right: 96%;
-            bottom: 30%;
-            font-size: 1.6rem;
-        }
-        .next-arrow {
-            right: 96%;
-            bottom: 30%;
-            font-size: 1.6rem;
-        }
+//         .slick-dots {
+//             left: 44%;
+//             top: 100%;
+//         }
+//         .prev-arrow {
+//             right: 96%;
+//             bottom: 30%;
+//             font-size: 1.6rem;
+//         }
+//         .next-arrow {
+//             right: 96%;
+//             bottom: 30%;
+//             font-size: 1.6rem;
+//         }
 
+//         .t-content{
+//             h1{
+//                 font-size: 1.7rem;
+//             }
+//             p{
+//                 font-size: 0.95rem;
+//                 padding: 1rem 14rem;
+//             }
+//         }
+//     }
+// }
+// @include media("xl") {
+//     .testimonial-section{
+//         padding-top: 5rem;
+//         padding-bottom: 7rem;
 
-        .t-content{
-            h1{
-                font-size: 1.7rem;
-            }
-            p{
-                font-size: 0.95rem;
-                padding: 1rem 14rem;
-            }
-        }
-    }
-}
-@include media("xl") {
-    .testimonial-section{
-        padding-top: 5rem;
-        padding-bottom: 7rem;
+//         .slick-dots {
+//             left: 45%;
+//             top: 100%;
+//         }
 
-        .slick-dots {
-            left: 45%;
-            top: 100%;
-        }
+//         .t-content{
+//             h1{
+//                 font-size: 1.9rem;
+//             }
+//             .hr-line{
+//                 width: 5rem;
+//                 height: 0.13rem;
+//             }
+//             p{
+//                 font-size: 0.966rem;
+//                 padding: 1rem 20rem;
+//                 line-height: 1.5;
+//             }
+//         }
+//     }
+// }
+// @include media("xxl") {
+//     .testimonial-section{
+//         padding-top: 6rem;
+//         padding-bottom: 8rem;
 
-        .t-content{
-            h1{
-                font-size: 1.9rem;
-            }
-            .hr-line{
-                width: 5rem;
-                height: 0.13rem;
-            }
-            p{
-                font-size: 0.966rem;
-                padding: 1rem 20rem;
-                line-height: 1.5;
-            }
-        }
-    }
-}
-@include media("xxl") {
-    .testimonial-section{
-        padding-top: 6rem;
-        padding-bottom: 8rem;
-
-        .t-content{
-            p{
-                padding: 2rem 28rem;
-            }
-        }
-    }
-}
+//         .t-content{
+//             p{
+//                 padding: 2rem 28rem;
+//             }
+//         }
+//     }
+// }
 
 // .testimonial-section{
 //     background-image: url("../img/gallery1.jpg");
