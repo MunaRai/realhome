@@ -219,6 +219,18 @@ header {
     margin-top: 3rem;
     margin-bottom: 5rem; }
 
+.agent-section .container .carousel-indicators button {
+  left: 2rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  border: 2px solid #ffffff; }
+  .agent-section .container .carousel-indicators button button::before {
+    display: none; }
+  .agent-section .container .carousel-indicators button.active {
+    background-color: #e2574c;
+    border: 2px solid #e2574c; }
+
 .agent-section .container .carousel-inner .carousel-item {
   background-color: #ffffff; }
   .agent-section .container .carousel-inner .carousel-item .row .col-4 img {
@@ -226,51 +238,48 @@ header {
     height: 100%; }
   .agent-section .container .carousel-inner .carousel-item .row .col-8 {
     text-align: left;
-    padding: 6rem 0; }
+    padding: 8rem 4rem; }
+    .agent-section .container .carousel-inner .carousel-item .row .col-8 h1 {
+      margin: 0;
+      margin-bottom: 1rem; }
+    .agent-section .container .carousel-inner .carousel-item .row .col-8 h2 {
+      margin: 0;
+      margin: 1rem 0;
+      font-size: 1.4rem;
+      font-weight: bold; }
+    .agent-section .container .carousel-inner .carousel-item .row .col-8 p {
+      margin: 0;
+      line-height: 1.5; }
+    .agent-section .container .carousel-inner .carousel-item .row .col-8 .contact-detail {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center; }
+      .agent-section .container .carousel-inner .carousel-item .row .col-8 .contact-detail a {
+        text-decoration: none;
+        color: #3c3c3c;
+        font-size: 1rem;
+        margin-right: 3rem;
+        display: flex;
+        align-items: center; }
+        .agent-section .container .carousel-inner .carousel-item .row .col-8 .contact-detail a i {
+          margin-right: 1rem; }
+        .agent-section .container .carousel-inner .carousel-item .row .col-8 .contact-detail a .mail {
+          color: #e2574c; }
 
 /* Our Agent Style */
 /* Agent slider section */
-/* More about us style */
 .call-in-action {
-  background-color: #f3f2f2;
-  padding: 1.5rem 0; }
-  .call-in-action .content {
-    text-align: center; }
-    .call-in-action .content p {
-      margin: 0;
-      font-size: 1rem;
-      color: #3c3c3c;
-      margin-bottom: 0.8rem; }
-      .call-in-action .content p span {
-        font-weight: bolder; }
-
-@media (min-width: 576px) {
-  .call-in-action .content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-    .call-in-action .content p {
-      font-size: 1.1rem; } }
-
-@media (min-width: 768px) {
-  .call-in-action .content p {
-    font-size: 1.4rem; } }
-
-@media (min-width: 992px) {
-  .call-in-action .content p {
-    font-size: 1.5rem; } }
-
-@media (min-width: 1200px) {
-  .call-in-action {
-    padding: 2rem 0; }
-    .call-in-action .content p {
-      font-size: 1.6rem; } }
-
-@media (min-width: 1400px) {
-  .call-in-action {
-    padding: 2.2rem 0; }
-    .call-in-action .content p {
-      font-size: 1.8rem; } }
+  padding: 3rem 0;
+  background-color: #f3f2f2; }
+  .call-in-action .row .col-9 p {
+    margin: 0;
+    text-align: left;
+    font-size: 2rem; }
+    .call-in-action .row .col-9 p span {
+      font-weight: bold; }
+  .call-in-action .row .col-3 .primary-button {
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem; }
 
 /* Testimonial style */
 .testimonial-section {

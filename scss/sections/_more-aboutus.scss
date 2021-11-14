@@ -1,75 +1,97 @@
-/* More about us style */
 
 .call-in-action{
+    padding: 3rem 0;
     background-color: $moreaboutus-bkground-color;
-    padding: 1.5rem 0;
+    
+    .row{
+        .col-9{
+            p{
+                margin: 0;
+                text-align: left;
+                font-size: 2rem;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+        .col-3{
+            .primary-button{
+                font-size: 1rem;
+                padding: 0.7rem 1.2rem;
+            }
+        }
+    }
+}
+// .call-in-action{
+//     background-color: $moreaboutus-bkground-color;
+//     padding: 1.5rem 0;
 
-    .content{
-        text-align: center;
-        p{
-            margin: 0;
-            font-size: 1rem;
-            color: $font-color;
-            margin-bottom: 0.8rem;
+//     .content{
+//         text-align: center;
+//         p{
+//             margin: 0;
+//             font-size: 1rem;
+//             color: $font-color;
+//             margin-bottom: 0.8rem;
 
-            span{
-                font-weight: bolder ;
-            }
-        }
-    }
-}
+//             span{
+//                 font-weight: bolder ;
+//             }
+//         }
+//     }
+// }
 
-@include media("sm"){
-    .call-in-action{
-        .content{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+// @include media("sm"){
+//     .call-in-action{
+//         .content{
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-between;
 
-            p{
-                font-size: 1.1rem;
-            }
-        }
-    }
-}
-@include media("md"){
-    .call-in-action{
-        .content{
-            p{
-                font-size: 1.4rem;
-            }
-        }
-    }
-}
-@include media("lg"){
-    .call-in-action{
-        .content{
-            p{
-                font-size: 1.5rem;
-            }
-        }
-    }
-}
-@include media("xl"){
-    .call-in-action{
-        padding: 2rem 0;
-        .content{
-            p{
-                font-size: 1.6rem;
-            }
-        }
-    }
-}
-@include media("xxl"){
-    .call-in-action{
-        padding: 2.2rem 0;
-        .content{
-            p{
-                font-size: 1.8rem;
-            }
-        }
-    }
-}
+//             p{
+//                 font-size: 1.1rem;
+//             }
+//         }
+//     }
+// }
+// @include media("md"){
+//     .call-in-action{
+//         .content{
+//             p{
+//                 font-size: 1.4rem;
+//             }
+//         }
+//     }
+// }
+// @include media("lg"){
+//     .call-in-action{
+//         .content{
+//             p{
+//                 font-size: 1.5rem;
+//             }
+//         }
+//     }
+// }
+// @include media("xl"){
+//     .call-in-action{
+//         padding: 2rem 0;
+//         .content{
+//             p{
+//                 font-size: 1.6rem;
+//             }
+//         }
+//     }
+// }
+// @include media("xxl"){
+//     .call-in-action{
+//         padding: 2.2rem 0;
+//         .content{
+//             p{
+//                 font-size: 1.8rem;
+//             }
+//         }
+//     }
+// }
 // .more-aboutus-section{
 //     background: #f3f2f2;
 //     /* display: flex; */
